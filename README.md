@@ -32,11 +32,14 @@ Parses a messy transcript into a structured quote with labor, materials, estimat
 Install dependencies
 
 pip install -r requirements.txt
+
 Run interactively
 
 chmod +x run.sh
 ./run.sh
+
 Type the job description when prompted.
+
 Example:
 
 4m² bathroom in Marseille. Remove old tiles, redo plumbing for shower, replace toilet, install vanity, repaint walls, lay ceramic floor tiles. Budget-conscious.
@@ -56,6 +59,7 @@ python3 pricing_engine.py \
   --transcript "5m² bathroom in Paris. Install a new vanity, paint walls, and lay ceramic floor tiles. High-end finish." \
   --format compact \
   --out output/history/quote_test.json
+
 ⚙️ Pricing Logic
 Materials: data/materials.json
 
@@ -102,9 +106,7 @@ Contractor productivity data
 Multilingual parsing
 
 🧪 Run Tests
-bash
-Copy
-Edit
+
 pytest tests/
 
 
