@@ -31,23 +31,14 @@ Parses a messy transcript into a structured quote with labor, materials, estimat
 🚀 How to Run
 Install dependencies
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Run interactively
 
-bash
-Copy
-Edit
 chmod +x run.sh
 ./run.sh
 Type the job description when prompted.
 Example:
 
-lua
-Copy
-Edit
 4m² bathroom in Marseille. Remove old tiles, redo plumbing for shower, replace toilet, install vanity, repaint walls, lay ceramic floor tiles. Budget-conscious.
 Output
 
@@ -61,9 +52,6 @@ output/sample_quote.json
 
 Run directly with Python
 
-bash
-Copy
-Edit
 python3 pricing_engine.py \
   --transcript "5m² bathroom in Paris. Install a new vanity, paint walls, and lay ceramic floor tiles. High-end finish." \
   --format compact \
