@@ -50,7 +50,6 @@ Table summary printed to terminal
 JSON saved to:
 
 output/history/quote_YYYY-MM-DD.json
-
 output/sample_quote.json
 
 Run directly with Python
@@ -62,51 +61,33 @@ python3 pricing_engine.py \
 
 ⚙️ Pricing Logic
 Materials: data/materials.json
-
 Labor = hours × hourly rate × city multiplier
-
 Margin = 18% + adjustments:
-
 +5% plumbing
-
 +2% demolition
-
 +3% low confidence
-
 +2% Paris
-
 Feedback loop adjustments
 
 VAT:
-
 10% renovation (>2y dwelling)
-
 20% otherwise
-
 Confidence: per-task + global
 
 🧠 Bonus Features
 City-based pricing variation
-
 Feedback memory loop
-
 Low-confidence flags
-
 Compact/full JSON modes
-
 Interactive run.sh
 
 🔮 Future Ideas
 Vector memory for pricing history
-
 Live supplier pricing API
-
 Contractor productivity data
-
 Multilingual parsing
 
 🧪 Run Tests
-
 pytest tests/
 
 
