@@ -5,24 +5,25 @@ Parses messy transcript into structured quote with labor, materials, estimated t
 
 ## 📂 Project Structure
 /bathroom-pricing-engine/
-├── pricing_engine.py # Main script: transcript → JSON quote
-├── pricing_logic/ # Modular business logic
-│ ├── material_db.py # Material pricing
-│ ├── labor_calc.py # Labor hours & city multipliers
-│ ├── vat_rules.py # VAT logic
-│ ├── parser.py # Transcript parsing & confidence flags
-│ └── confidence.py # Per-task confidence scoring
+├── pricing_engine.py
+├── pricing_logic/
+│   ├── material_db.py
+│   ├── labor_calc.py
+│   ├── vat_rules.py
+│   ├── parser.py
+│   └── confidence.py
 ├── data/
-│ ├── materials.json # Material cost database
-│ └── price_templates.csv # Example price templates
+│   ├── materials.json
+│   └── price_templates.csv
 ├── output/
-│ ├── sample_quote.json # Latest generated quote
-│ └── history/ # Archive of past quotes
+│   ├── sample_quote.json
+│   └── history/
 ├── tests/
-│ └── test_logic.py # Basic parsing & pricing test
-├── run.sh # Interactive helper script
-├── requirements.txt # Dependencies
+│   └── test_logic.py
+├── run.sh
+├── requirements.txt
 └── README.md
+
 
 ## 🚀 How to Run
 
