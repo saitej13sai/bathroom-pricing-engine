@@ -104,7 +104,9 @@ python3 pricing_engine.py \
 }
 ✅Note:
 Use --format full to include full zones[].tasks[] breakdown with material lines, margin, VAT, and per-task totals.
+
 ⚙️ 3) Pricing & Margin Logic
+
 ✅Materials: Unit prices from data/materials.json
 Paint area ≈ 2.6 × floor m²
 Tile waste ≈ 8%
