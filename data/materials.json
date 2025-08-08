@@ -1,0 +1,14 @@
+{
+  "ceramic_floor_tile": { "unit": "m2", "base_price": 28.0, "waste_factor": 0.08 },
+  "wall_paint": { "unit": "m2", "base_price": 3.5, "coverage_m2_per_liter": 10, "coats": 2 },
+  "thinset_mortar": { "unit": "m2", "base_price": 4.0 },
+  "grout": { "unit": "m2", "base_price": 2.0 },
+  "toilet_standard": { "unit": "unit", "base_price": 160.0 },
+  "vanity_standard": { "unit": "unit", "base_price": 220.0 },
+  "plumbing_kit_shower": { "unit": "unit", "base_price": 120.0 },
+  "demolition_bags": { "unit": "unit", "base_price": 20.0 },
+  "primer": { "unit": "m2", "base_price": 1.8 },
+  "silicone_sealant": { "unit": "unit", "base_price": 9.0 },
+  "misc_fasteners": { "unit": "unit", "base_price": 12.0 }
+}
+
