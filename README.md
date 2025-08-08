@@ -24,7 +24,6 @@ Parses messy transcript into structured quote with labor, materials, estimated t
 ├── requirements.txt # Dependencies
 └── README.md
 
-
 ## 🚀 How to Run
 
 ### Install dependencies
@@ -32,28 +31,27 @@ Parses messy transcript into structured quote with labor, materials, estimated t
 pip install -r requirements.txt
 
 
-##Run interactively
+Run interactively
 chmod +x run.sh
 ./run.sh
 
-##Type job description when prompted:
+Type job description when prompted:
 4m² bathroom in Marseille. Remove old tiles, redo plumbing for shower, replace toilet, install vanity, repaint walls, lay ceramic floor tiles. Budget-conscious.
 
-##Output:
+Output:
 Table summary printed to terminal
 
-#JSON saved to:
+JSON saved to:
 
 output/history/quote_YYYY-MM-DD.json
 output/sample_quote.json
 
-##Run directly with Python
+Run directly with Python
 python3 pricing_engine.py \
   --transcript "5m² bathroom in Paris. Install a new vanity, paint walls, and lay ceramic floor tiles. High-end finish." \
   --format compact \
   --out output/history/quote_test.json
-
-##⚙️ Pricing Logic
+⚙️ Pricing Logic
 Materials → data/materials.json
 Labor = hours × hourly rate × city multiplier
 Margin = 18% + adjustments:
@@ -68,14 +66,14 @@ VAT:
 20% otherwise
 Confidence: per-task + global
 
-##🧠 Bonus
+🧠 Bonus
 City-based pricing variation
 Feedback memory loop
 Low-confidence flags
 Compact/full JSON modes
 Interactive run.sh
 
-##🔮 Future Ideas
+🔮 Future Ideas
 Vector memory for pricing history
 Live supplier pricing API
 Contractor productivity data
