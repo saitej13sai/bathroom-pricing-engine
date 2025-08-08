@@ -1,7 +1,7 @@
 # Donizo Bathroom Pricing Engine
 
 Smart pricing engine for full bathroom renovations.  
-Parses a messy transcript into a structured quote with labor, materials, estimated time, VAT, margin, and confidence scoring — per Donizo Founding Data Engineer Test Case 1.
+Parses a messy transcript into a structured quote with labor, materials, estimated time, VAT, margin, and confidence scoring as per Donizo Founding Data Engineer Test Case 1.
 
 ---
 
